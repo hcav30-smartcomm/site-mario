@@ -1,0 +1,30 @@
+.logo{
+    width: 200px;
+}
+
+button{
+    background-color: #c51111;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.logo-mario-luigi{
+    height: 500px;
+}
+
+.div-1{
+    background-color: blue;
+}
+
+.div-2{
+    background-color: red;
+}
+
+body{
+    display: flex;
+    }
