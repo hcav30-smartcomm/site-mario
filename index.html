@@ -31,7 +31,7 @@
                 Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!
             </p>
 
-            <button>Entre em contato</button>
+            <button onclick="mostrarForm()">Entre em contato</button>
         </div>
 
         <div>
@@ -47,15 +47,20 @@
 
     <div class="caixa-link-whatsapp">
         <a href="https://wa.me/5561985002365?text=Ol%C3%A1%2C%20quero%20um%20servi%C3%A7o!" class="link-whatsapp">
-        <img src="./img/whatsapp.png">
+            <img src="./img/whatsapp.png">
         </a>
     </div>
 
-    <form>
-        <input placeholder="Nome"/>
-        <input placeholder="Email"/>
+    <form class="formulario">
+        <input placeholder="Nome" />
+        <input placeholder="Email" />
         <textarea placeholder="Digte seu problema"></textarea>
         <button>Solicitar Orçamento</button>
     </form>
+    <div class="mascara-formulario" onclick="esconderForm()"></div>
+
 </body>
+
+<script src="scripts.js"></script>
+
 </html>
