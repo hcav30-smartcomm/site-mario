@@ -8,7 +8,7 @@ function mostrarForm() {
 }
 
 function esconderForm() {
-    formulario.style.left = "-490px";
+    formulario.style.left = "-495px";
     formulario.style.transform = "translateX(0)";
     mascara.style.visibility = "hidden";
 }

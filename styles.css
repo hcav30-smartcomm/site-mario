@@ -109,7 +109,7 @@ form {
     background-color: white;
     position: fixed;
     top: 40%;
-    left: -490px;
+    left: -495px;
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -117,7 +117,7 @@ form {
     gap: 7px;
     width: 500px;
     z-index: 1;
-     transition: 0.5s left ease-in-out;
+    transition: 0.5s left ease-in-out;
 }
 
 form input {

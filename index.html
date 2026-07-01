@@ -13,7 +13,7 @@
         <img src="./img/logo-header.png" alt="logo-cabecalho-mario">
         <a>
             <a>Home</a>
-            <a>Fale Conosco</a>
+            <a onclick="mostrarForm()">Fale Conosco</a>
             <a>Nossos Serviços</a>
         </a>
     </div>
@@ -51,14 +51,18 @@
         </a>
     </div>
 
-    <form class="formulario">
+    <form 
+    class="formulario" 
+    action="https://formcarry.com/s/WATrAlXue4h" 
+    method="POST" 
+    enctype="multipart/form-data">
         <input placeholder="Nome" />
         <input placeholder="Email" />
         <textarea placeholder="Digte seu problema"></textarea>
-        <button>Solicitar Orçamento</button>
+        <button type="submit">Solicitar Orçamento</button>
     </form>
-    <div class="mascara-formulario" onclick="esconderForm()"></div>
 
+    <div class="mascara-formulario" onclick="esconderForm()"></div>
 </body>
 
 <script src="scripts.js"></script>
